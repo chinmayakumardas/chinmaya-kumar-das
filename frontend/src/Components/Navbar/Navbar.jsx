@@ -14,7 +14,7 @@ import Experience from './Experience/Experience'
 const Navbar = () => {
   return (
     <div className="h-screen ring-2 ring-purple-500  py-10 flex  items-center ">
-      <nav className="bg-[#545f67]  w-[50px] h-[50vh] flex flex-col justify-center   rounded-full items-center mr-10">
+      <nav className="bg-[#545f67]  w-[50px] h-[50vh] flex md:flex-col justify-center   rounded-full items-center mr-10">
       <ul className="flex flex-col gap-8 text-3xl">
         <li className="text-white">
           <NavLink to='/home'><FaHome /></NavLink>

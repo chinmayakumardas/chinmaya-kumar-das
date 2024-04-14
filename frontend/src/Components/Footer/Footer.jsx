@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="text-sm">&copy; 2024 Chinmaya kumar das. All rights reserved.</p>
+          <p className="text-sm hidden sm:block">&copy; 2024 Chinmaya kumar das. All rights reserved.</p>
         </div>
       </div>
     </footer>
