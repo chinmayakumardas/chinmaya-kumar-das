@@ -1,17 +1,14 @@
 import "./App.css";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fas);
 
 import Header from "./Components/Header/Header";
-import HomePage from "./Components/Home/HomePage";
-import Footer from "./Footer";
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
 const App = () => {
   return (
-    <div className="bg-[#303942] font-montserrat h-screen w-full px-[5%] pt-[1%]">
+    <div className="bg-[#303942] font-montserrat h-screen min-w-[100%] px-[3%] pt-[1%] flex flex-col">
       <Header></Header>
-      <HomePage></HomePage>
+      <Navbar></Navbar>
       <div className="bg-white h-0.5 w-full"></div>
       <Footer></Footer>
     </div>

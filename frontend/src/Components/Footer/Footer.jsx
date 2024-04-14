@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className=" text-white py-3">
-      <div className="container mx-auto flex justify-around items-center">
+      <div className="container mx-auto flex justify-around items-center flex-col sm:flex-row">
         <div>
           <ul className="flex list-none p-0">
             <li className="mr-6">
@@ -32,6 +32,7 @@ const Footer = () => {
             {/* Add more social media icons as needed */}
           </ul>
         </div>
+
         <div>
           <p className="text-sm">&copy; 2024 Chinmaya kumar das. All rights reserved.</p>
         </div>

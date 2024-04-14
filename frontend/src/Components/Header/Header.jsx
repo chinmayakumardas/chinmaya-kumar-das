@@ -3,7 +3,7 @@ import { LiaLinkedinIn } from "react-icons/lia";
 import { RxGithubLogo } from "react-icons/rx";
 const Header = () => {
   return (
-    <div className='flex justify-around font-semibold  text-4xl    w-full pb-[1%] items-center'>
+    <div className='flex md:flex-row justify-around font-semibold  text-4xl    w-full pb-[1%] items-center sm:flex-col xs:flex-col sm:justify-center'>
         <p className='text-white'>CHINMAYA <span className='font-light opacity-75'> KUMAR</span>  </p>
         <div className='flex flex-row gap-4'>
             <div className='  rounded-full text-white text-3xl hover:bg-[#2b3137]'>
