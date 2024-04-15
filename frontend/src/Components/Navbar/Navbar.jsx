@@ -13,16 +13,16 @@ import Project from './Project/Project';
 import Experience from './Experience/Experience'
 const Navbar = () => {
   return (
-    <div className="h-screen ring-2 ring-purple-500  py-10 flex  items-center ">
-      <nav className="bg-[#545f67]  w-[50px] h-[50vh] flex md:flex-col justify-center   rounded-full items-center mr-10">
+    <div className="h-screen  ring-2 ring-purple-500  py-10 flex  items-center ">
+      <nav className="bg-[#545f67]   w-[50px] h-[50vh] flex md:flex-col justify-center   rounded-full items-center mr-10">
       <ul className="flex flex-col gap-8 text-3xl">
         <li className="text-white">
           <NavLink to='/home'><FaHome /></NavLink>
         </li>
-        <li className="text-white">
+        <li className="text-white ">
           <NavLink to='/about'><MdManageAccounts /></NavLink>
         </li>
-        <li className="text-white">
+        <li className="text-white scale-75">
           <NavLink to='/project'><GrProjects /></NavLink>
         </li>
         <li className="text-white">
@@ -35,6 +35,8 @@ const Navbar = () => {
       </ul>
       </nav>
       <Routes>
+          <Route path='/' element={<Home></Home>}>
+          </Route>
           <Route path='/home' element={<Home></Home>}>
           </Route>
           <Route path='/about' element={<About></About>}>
@@ -47,7 +49,7 @@ const Navbar = () => {
           </Route>
           <Route path='/contact' element={<Contact></Contact>}>
           </Route>
-         
+          <Route path='/*' element={<p>Page not found</p>}></Route>
     </Routes>
     </div>
   );
