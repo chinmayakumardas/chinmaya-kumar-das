@@ -17,13 +17,13 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App bg-[#303942] h-screen flex justify-center items-center">
+    <div className="App bg-[#1D1D1D] h-screen flex justify-center items-center">
       {loading ? (
         <div className="flex justify-center items-center">
           <BounceLoader  color="#fb8500" />
         </div>
       ) : (
-        <div className="bg-[#303942] font-montserrat h-screen min-w-[100%] px-[3%] pt-[1%] flex flex-col">
+        <div className="bg-[#1D1D1D] font-montserrat h-screen min-w-[100%] px-[2%] pt-[1%] flex flex-col">
           <Header />
           <Navbar />
           <div className="bg-white h-0.5 opacity-30 w-full"></div>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Basic styling for contact section */
+#contact {
+  padding: 50px;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.contact-option {
+  width: 45%; /* Adjust width as needed */
+}
+
+.contact-option h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-option p {
+  font-size: 16px;
+}
+
+/* Styling for contact form */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-options">
+          <div class="contact-option">
+            <h3>Email</h3>
+            <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+          </div>
+          <div class="contact-option">
+            <h3>Phone</h3>
+            <p>123-456-7890</p>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Send us a message</h3>
+          <form action="/submit-contact-form" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+      
+</body>
+</html>
