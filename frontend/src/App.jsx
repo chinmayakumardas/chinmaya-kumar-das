@@ -1,14 +1,8 @@
-import { useState } from 'react'
+import React from 'react'
 
-import './App.css'
-
-function App() {
-
-
+const App = () => {
   return (
-    <>
-   ok
-    </>
+    <div>App</div>
   )
 }
 
