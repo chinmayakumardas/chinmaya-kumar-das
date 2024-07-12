@@ -1,9 +1,0 @@
-/* Hide all scrollbars globally */
-* {
-    scrollbar-width: none; /* Firefox */
-  }
-  
-  *::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, and Edge */
-  }
-  
