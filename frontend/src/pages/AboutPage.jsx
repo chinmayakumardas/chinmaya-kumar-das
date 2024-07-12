@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
-  )
-}
+    <div className='bg-[#F3EFEF] rounded-[35px] min-h-screen mx-5  overflow-x-hidden'>  
 
-export default AboutPage
+    </div>
+  );
+};
+
+export default AboutPage;

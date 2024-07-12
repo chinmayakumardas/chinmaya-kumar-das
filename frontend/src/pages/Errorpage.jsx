@@ -1,11 +1,11 @@
 import React from 'react'
 
-const WorkPage = () => {
+const Errorpage = () => {
   return (
     <div className='bg-[#141414] rounded-[35px] min-h-screen mx-5  overflow-x-hidden'>  
 
-     </div>
+    </div>
   )
 }
 
-export default WorkPage
+export default Errorpage
