@@ -9,26 +9,31 @@ export const AppContextProvider = ({ children }) => {
       name: "Facebook",
       url: "https://www.facebook.com/kumar.chinmay.7334/",
       iconUrl: "",
+      color:'#316FF6',
     },
     {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/chinmayakdas/",
       iconUrl: "",
+      color:'#0072b1',
     },
     {
       name: "Twitter",
       url: "https://x.com/Chinmayakmrdas",
       iconUrl: "",
+      color:'',
     },
     {
       name: "Instagram",
       url: "https://www.instagram.com/chinmaya.kumar.das/",
       iconUrl: "",
+      color:'#E1306C',
     },
     {
       name: "GitHub",
       url: "https://github.com/chinmaya-kumar-das",
       iconUrl: "",
+      color:'#f5f5f5',
     },
   ];
   const values = {

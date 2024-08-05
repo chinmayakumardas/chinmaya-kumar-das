@@ -10,10 +10,12 @@ export default {
         custom: ['"gilroy"', 'sans-serif'],
       },
       colors: {
-        textcolor:'#FFFFFF',
+        textcolor:'#F9F7F4',
         body: '#111111',
-        primary: '#ffc133',
-        secondary: '#33c4ff',
+        color1:'#F9F7F4',
+        color2:'#53C926',
+        color3:'#FFFFFF',
+        
       },
     },
   },

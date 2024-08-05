@@ -9,18 +9,18 @@ const Footer = () => {
            {/* upper */}
             <div className='flex flex-col sm:flex-row md:flex-wrap gap-5 sm:justify-between md:justify-around'>
                   <div className='flex flex-col gap-2  w-[100%]  sm:w-[22%]'>
-                        <h3>FOLLOW US</h3>
+                        <h3 className='text-2xl text-color2'>FOLLOW US</h3>
                         <div className='flex flex-col justify-around gap-5'>
                           {social.map((item, index) => (
-                            <div key={index} className='flex flex-row justify-center gap-2 items-center border-[1px] rounded-[2vw] w-[120px]'>
-                              <a href={item.url}>{item.name}</a>
+                            <div key={index}  className={`cursor-pointer flex flex-row justify-center gap-2 items-center border-[1px] rounded-[2vw] w-[120px] `}>
+                              <a href={item.url} target='_blank'>{item.name}</a>
                               <MdArrowOutward />
                             </div>
                           ))}
                         </div>
                   </div>
                   <div className='flex flex-col gap-2  w-[100%] sm:w-[20%]'>
-                    <h3>NAVIGATION'S</h3>
+                    <h3 className='text-2xl text-color2'>NAVIGATION</h3>
                     <div className='flex flex-col justify-around gap-5'>
                       <a href="/home">Home</a>
                       <a href="/work">Work</a>
@@ -28,15 +28,15 @@ const Footer = () => {
                       <a href="/contact">Contact</a>
                     </div>
                   </div>
-                  <div className='flex flex-col gap-10  sm:gap-3 items-end  w-[100%]  sm:w-[50%]  '>
-                    <h3 className=''>LET'S CONNECT</h3>
-                    <div className='flex gap-1 items-center text-right'>
+                  <div className='flex flex-col gap-10  sm:gap-5 items-end  w-[100%]  sm:w-[50%]  '>
+                    <h3 className='text-2xl text-color2'>LET'S CONNECT</h3>
+                    <div className='border-[1px] px-5 py-3 rounded-[2vw] flex gap-1 items-center text-right'>
                       <MdLocalPhone />
-                      <p className=''>+91-6370073215</p>
+                      <a href='tel:6370073215' className=''>+91-6370073215</a>
                     </div>
-                    <div className='flex gap-1 items-center text-right'>
+                    <div  className='border-[1px] px-5 py-3 rounded-[2vw] flex gap-1 items-center text-right'>
                       <MdOutlineAttachEmail />
-                      <p>chinmayakumardas2000@gmail.com</p>
+                      <a href='mailto:chinmayakumardas2000@gmail.com'>chinmayakumardas2000@gmail.com</a>
                     </div>
                   </div>
             </div>
