@@ -51,7 +51,7 @@ export default {
 
   import { useGSAP } from '@gsap/react';
   import gsap from 'gsap';
-  
+
   for example 
   import React from 'react'
   import { useGSAP } from '@gsap/react';
@@ -70,6 +70,7 @@ export default {
         App Components
         </div>
       )
+      
   }
 
 export default App  
