@@ -60,17 +60,17 @@ export default {
   
         //use here like this 
         useGsap(()=>{
-            //all gsap animation done here
-            for example
+            //all gsap animation done here for example
             gsap.to('.box',
              { x: 360 });
         })
       return (
+       <code>
         <div className="box">
         App Components
-        </div>
+        </div></code>>
       )
-      
+
   }
 
 export default App  
