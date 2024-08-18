@@ -46,8 +46,8 @@ export default {
  <code>
   npm install @gsap/react
  </code>
- <code>
-  import the 2 line of useGsap in  the component  
+ 
+  import the 2 lines of useGsap in  the component  
 
   import { useGSAP } from '@gsap/react';
   import gsap from 'gsap';
@@ -58,24 +58,22 @@ export default {
 
   const App = () => {
   
-        //use here like this 
+        //use here like this  
         useGsap(()=>{
             //all gsap animation done here for example
             gsap.to('.box',
              { x: 360 });
         })
       return (
-       <code>
         <div className="box">
         App Components
-        </div></code>>
+        </div>
       )
 
   }
-
 export default App  
- </code>
 </pre>
+
 [**<h1>Locomotive js smooth scroll</h1>**](https://github.com/chinmayakumardas/Reactjs/)
 
 <pre>
