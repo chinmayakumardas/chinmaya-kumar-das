@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         primary: '#3490dc',
-        secondary: '#ffed4a',
+        secondary: '#F1F1F1',
       },
       fontFamily: {
         FoundersGrotesk: ['FoundersGrotesk', 'sans-serif'],
