@@ -46,9 +46,10 @@ const Header = () => {
           ].map((item, index) => (
             <NavLink
               to={item.path} target={item.target}
-              className={`text-lg font-light capitalize  ${index === 3 ? "ml-32" : ""}`} 
+              className={`text-lg font-light capitalize  ${index ===3 ? "ml-32" : ""}`} 
               key={index}
             >
+
               {item.name}
             </NavLink>
           ))}
