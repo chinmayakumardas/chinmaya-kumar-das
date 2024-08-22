@@ -2,7 +2,7 @@ import React from 'react'
 
 const RecentWork = () => {
   return (
-    <div className='px-[3.5vw]'>RecentWork</div>
+    <div className='w-full px-[3.5vw]'>RecentWork</div>
   )
 }
 
