@@ -25,7 +25,7 @@ const App = () => {
   }, []);
  
   return (
-    <div ref={scrollRef} className='scroll-container  bg-primary min-h-[100vh] max-w-[100vw]  flex flex-col justify-evenly overflow-hidden'>
+    <div ref={scrollRef} className='scroll-container  bg-primary  max-w-[100vw]  flex flex-col justify-evenly overflow-hidden'>
       <Header/>
       <main className="w-full min-h-[100vh] ">
           <Routes>

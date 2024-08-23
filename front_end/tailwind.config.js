@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         body: '#3490dc',
+        col:"#212121",
         primary: '#F1F1F1',
         secondary: '#F9F7F4',
       },
@@ -18,6 +19,13 @@ export default {
         Futura: ['Futura', 'sans-serif'],
         HeleveticaNow: ['HeleveticaNow', 'sans-serif'],
       },
+      backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '50%': '50%',
+      'scale': '125%',
+    }
     },
   },
   plugins: [],

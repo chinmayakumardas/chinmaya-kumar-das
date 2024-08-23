@@ -7,6 +7,8 @@
   box-sizing: border-box;
 
 }
+
+
 @font-face {
     font-family: 'FoundersGrotesk';
     src: url('./assets/fonts/FoundersGrotesk-Semibold.ttf') ;

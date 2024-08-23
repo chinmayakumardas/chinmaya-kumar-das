@@ -1,32 +1,24 @@
-import React from 'react'
-import Grid from '../components/Grid'
-
+import React, { useContext } from 'react'
+import { AppContext } from './../contexts/Appcontext';
+import Grid from './../components/Grid';
+ 
 const Work = () => {
+  const {works}=useContext(AppContext);
   return (
     <div className="px-[3.5vw]">
-      <h1>My Recent works</h1>
-      <div className='border-2 py-2 border-red-600 flex flex-col md:flex-row sm:px-auto flex-wrap gap-5'>
-          <Grid/>
-          <Grid/>
-          <Grid/>
-          <Grid/>
+      <div className='w-[60vw] h-[30vh] flex flex-col justify-between'>
+        <h1>Bringing ideas to life and setting you up for the future</h1>
+        <span className='text-[6vw]  uppercase border-b-2 font-HeleveticaNow font-bold my-10'><h1 >Recent Works</h1></span>
+      </div>
+      <div className='flex flex-col  md:flex-row justify-between flex-shrink-0 flex-wrap gap-10'>
+      {
+        works.map((item,index)=>{
+          return (<Grid key={index} project={item}/>)
+        })
+      }
       </div>
     </div>
   )
 }
 
 export default Work
-
-
-import React from 'react'
-
-const Grid = () => {
-    const bgimg = "https://cdn.pixabay.com/photo/2024/02/15/14/31/donkey-8575524_640.jpg";
-    return (
-        <div className="h-[90vh] sm:h-[90vh] md:h-[90vh] lg:h-[90vh] w-full xsm:w-[80vw] mx-auto  sm:w-1/2 md:w-[45vw]  rounded-[2vw] bg-red-500"
-            style={{ backgroundImage: `url(${bgimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        </div>
-    )
-}
-
-export default Grid;
